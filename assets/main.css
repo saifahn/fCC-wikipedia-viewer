@@ -52,6 +52,7 @@ a:hover {
 }
 
 #search {
+  font-family: 'Muli', sans-serif;
   font-size: 1.4em;
   text-align: left;
   border: solid 3px #565656;
