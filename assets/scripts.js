@@ -43,8 +43,4 @@ $(document).ready(function() {
       wikiSearch(searchVal);
     };
   });
-  // when random is clicked
-  $("#random-page").click(function(){
-    window.open("https://en.wikipedia.org/wiki/Special:Random");
-  });
 });

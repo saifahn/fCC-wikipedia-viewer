@@ -7,22 +7,18 @@ body {
   text-align: center;
 }
 
-#random-page {
+h1 {
   color: #F3D9B1;
 }
 
-button {
-  margin: auto;
-  font-family: 'Muli', sans-serif;
-}
-
 a {
-  color: black;
+  color: #bdc3c7;
+  margin-bottom: 1em;
   text-decoration: none;
 }
 
 a:hover {
-  color: #F3D9B1;
+  color: #9b59b6;
   text-decoration: none;
 }
 
@@ -37,18 +33,10 @@ a:hover {
 }
 
 .search-result {
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
   margin: 2em 7em;
   padding: 0.5em;
-}
-
-#random-page {
-  margin-bottom: 1em;
-}
-
-#random-page:hover {
-  cursor: pointer;
 }
 
 #search {
@@ -58,6 +46,7 @@ a:hover {
   border: solid 3px #565656;
   width: 7em;
   padding: 0.4em;
+  text-align: center;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
   background: #e5efff;
